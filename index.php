@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Подсчет символов | в файле</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <center>
+        <div class="content">
+            <form action="count.php" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <input class="form-control" name="file" type="file" id="file">
+                </div>
+                <button type="submit" class="btn btn-primary">Посчитать</button>
+            </form>
+        </div>
+    <center>
+
+<script src="bootstrap.min.js"></script>
+</body>
+</html>

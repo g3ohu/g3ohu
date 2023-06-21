@@ -1,0 +1,12 @@
+.content {
+    margin-top: 100px;
+    width: 600px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
